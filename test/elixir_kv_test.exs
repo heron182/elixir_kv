@@ -1,8 +1,4 @@
-defmodule KVTest do
+defmodule ElixirKVTest do
   use ExUnit.Case
-  doctest KV
 
-  test "greets the world" do
-    assert KV.hello() == :world
-  end
 end
